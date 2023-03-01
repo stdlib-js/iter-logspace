@@ -34,38 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/iter-logspace
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-iterLogspace = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-logspace@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var iterLogspace = require( 'path/to/vendor/umd/iter-logspace/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-logspace@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.iterLogspace;
-})();
-</script>
+var iterLogspace = require( '@stdlib/iter-logspace' );
 ```
 
 #### iterLogspace( start, stop\[, N]\[, options] )
@@ -162,13 +154,8 @@ v = it.next().value;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-logspace@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var iterLogspace = require( '@stdlib/iter-logspace' );
 
 // Create a base-2 iterator:
 var opts = {
@@ -185,11 +172,6 @@ while ( true ) {
     }
     console.log( v.value );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -212,11 +194,11 @@ while ( true ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/array/from-iterator`][@stdlib/array/from-iterator]</span><span class="delimiter">: </span><span class="description">create (or fill) an array from an iterator.</span>
--   <span class="package-name">[`@stdlib/iter/datespace`][@stdlib/iter/datespace]</span><span class="delimiter">: </span><span class="description">create an iterator which returns evenly spaced dates over a specified interval.</span>
--   <span class="package-name">[`@stdlib/iter/incrspace`][@stdlib/iter/incrspace]</span><span class="delimiter">: </span><span class="description">create an iterator which returns evenly spaced numbers according to a specified increment.</span>
--   <span class="package-name">[`@stdlib/iter/linspace`][@stdlib/iter/linspace]</span><span class="delimiter">: </span><span class="description">create an iterator which returns evenly spaced numbers over a specified interval.</span>
--   <span class="package-name">[`@stdlib/iter/step`][@stdlib/iter/step]</span><span class="delimiter">: </span><span class="description">create an iterator which returns a sequence of numbers according to a specified increment.</span>
+-   <span class="package-name">[`@stdlib/array-from-iterator`][@stdlib/array/from-iterator]</span><span class="delimiter">: </span><span class="description">create (or fill) an array from an iterator.</span>
+-   <span class="package-name">[`@stdlib/iter-datespace`][@stdlib/iter/datespace]</span><span class="delimiter">: </span><span class="description">create an iterator which returns evenly spaced dates over a specified interval.</span>
+-   <span class="package-name">[`@stdlib/iter-incrspace`][@stdlib/iter/incrspace]</span><span class="delimiter">: </span><span class="description">create an iterator which returns evenly spaced numbers according to a specified increment.</span>
+-   <span class="package-name">[`@stdlib/iter-linspace`][@stdlib/iter/linspace]</span><span class="delimiter">: </span><span class="description">create an iterator which returns evenly spaced numbers over a specified interval.</span>
+-   <span class="package-name">[`@stdlib/iter-step`][@stdlib/iter/step]</span><span class="delimiter">: </span><span class="description">create an iterator which returns a sequence of numbers according to a specified increment.</span>
 
 </section>
 
@@ -293,15 +275,15 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/array/from-iterator]: https://github.com/stdlib-js/array-from-iterator/tree/umd
+[@stdlib/array/from-iterator]: https://github.com/stdlib-js/array-from-iterator
 
-[@stdlib/iter/datespace]: https://github.com/stdlib-js/iter-datespace/tree/umd
+[@stdlib/iter/datespace]: https://github.com/stdlib-js/iter-datespace
 
-[@stdlib/iter/incrspace]: https://github.com/stdlib-js/iter-incrspace/tree/umd
+[@stdlib/iter/incrspace]: https://github.com/stdlib-js/iter-incrspace
 
-[@stdlib/iter/linspace]: https://github.com/stdlib-js/iter-linspace/tree/umd
+[@stdlib/iter/linspace]: https://github.com/stdlib-js/iter-linspace
 
-[@stdlib/iter/step]: https://github.com/stdlib-js/iter-step/tree/umd
+[@stdlib/iter/step]: https://github.com/stdlib-js/iter-step
 
 <!-- </related-links> -->
 
