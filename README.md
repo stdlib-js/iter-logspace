@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import iterLogspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-logspace@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/iter-logspace/tags). For example,
+
+```javascript
 import iterLogspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-logspace@v0.2.0-esm/index.mjs';
 ```
 
@@ -155,7 +160,7 @@ v = it.next().value;
 <body>
 <script type="module">
 
-import iterLogspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-logspace@v0.2.0-esm/index.mjs';
+import iterLogspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-logspace@esm/index.mjs';
 
 // Create a base-2 iterator:
 var opts = {
