@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterLogspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-logspace@esm/index.mjs';
+import iterLogspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-logspace@v0.2.0-esm/index.mjs';
 ```
 
 #### iterLogspace( start, stop\[, N]\[, options] )
@@ -155,7 +155,7 @@ v = it.next().value;
 <body>
 <script type="module">
 
-import iterLogspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-logspace@esm/index.mjs';
+import iterLogspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-logspace@v0.2.0-esm/index.mjs';
 
 // Create a base-2 iterator:
 var opts = {
