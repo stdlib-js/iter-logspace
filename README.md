@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterLogspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-logspace@deno/mod.js';
+import iterLogspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-logspace@v0.2.2-deno/mod.js';
 ```
 
 #### iterLogspace( start, stop\[, N]\[, options] )
@@ -150,7 +150,7 @@ v = it.next().value;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import iterLogspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-logspace@deno/mod.js';
+import iterLogspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-logspace@v0.2.2-deno/mod.js';
 
 // Create a base-2 iterator:
 var opts = {
