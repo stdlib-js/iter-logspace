@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-01)
+## Unreleased (2026-11-27)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`2e78ccf`](https://github.com/stdlib-js/stdlib/commit/2e78ccf874ec1db7b55a753538edb3a494490a00) - **docs:** fix descriptions [(#16835)](https://github.com/stdlib-js/stdlib/pull/16835) _(by Philipp Burckhardt)_
 -   [`0287136`](https://github.com/stdlib-js/stdlib/commit/0287136074eb89eede83a3cae5c5b51a7760a57e) - **bench:** refactor to use string interpolation in `iter` [(#11612)](https://github.com/stdlib-js/stdlib/pull/11612) _(by Karan Anand)_
 
 </details>
@@ -24,9 +25,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
